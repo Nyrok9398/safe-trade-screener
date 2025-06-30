@@ -1,4 +1,4 @@
-# Trigger redeploy to fix numpy issue
+# Triggering rebuild - fixing numpy + pandas_ta
 import streamlit as st
 from crypto_engine import get_crypto_signals
 from stock_engine import get_stock_signals
