@@ -2,8 +2,8 @@
 pip>=25.1.1
 streamlit
 pandas==1.5.3
-numpy==1.24.3
-git+https://github.com/twopirllc/pandas-ta.git@development
+numpy==1.21.6
+pandas_ta @ git+https://github.com/twopirllc/pandas-ta.git@development
 yfinance
 requests
 setuptools
