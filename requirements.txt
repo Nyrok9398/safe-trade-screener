@@ -1,0 +1,12 @@
+# Core libraries
+streamlit
+yfinance
+requests
+setuptools
+
+# Locked versions that work together
+numpy==1.23.5
+pandas==1.5.3
+
+# Fixed fork of pandas-ta with NaN bug patched
+pandas_ta @ git+https://github.com/scrollfuel/pandas-ta-fixed.git
