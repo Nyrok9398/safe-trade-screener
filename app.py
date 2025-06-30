@@ -1,5 +1,4 @@
 # Trigger redeploy – fixing numpy/NaN crash
-pip install --upgrade pip
 import streamlit as st
 from crypto_engine import get_crypto_signals
 from stock_engine import get_stock_signals
