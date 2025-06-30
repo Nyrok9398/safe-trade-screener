@@ -1,7 +1,7 @@
 streamlit
 pandas==1.5.3
-numpy==1.21.6
-pandas-ta==0.3.14b  # Last stable release before squeeze_pro introduced
+numpy==1.23.5
+pandas-ta @ git+https://github.com/twopirllc/pandas-ta.git@development
 yfinance
 requests
 setuptools
