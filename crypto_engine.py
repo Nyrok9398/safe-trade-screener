@@ -1,4 +1,5 @@
-
+import numpy as np
+NaN = np.nan
 import requests
 import pandas as pd
 import pandas_ta as ta
